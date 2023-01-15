@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePage"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#737D88"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Page"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:fontFamily="@font/impact"
+        />
+    </LinearLayout>
+
+    //主屏幕
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#775184CF">
+
+        <Button
+            android:id="@+id/btn_ProfilePage_googleMap"
+            android:layout_width="225dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:background="@drawable/shape_10dp_corner"
+            android:text="Google Map"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.000" />
+
+        <Button
+            android:id="@+id/btn_myWorkoutPlan"
+            android:layout_width="225dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:background="@drawable/shape_10dp_corner"
+            android:text="My Workout Plan"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.750" />
+
+        <Button
+            android:id="@+id/btn_personalInfo"
+            android:layout_width="225dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:background="@drawable/shape_10dp_corner"
+            android:text="Personal info"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.2500" />
+
+        <Button
+            android:id="@+id/btn_myWorkoutExp"
+            android:layout_width="225dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:background="@drawable/shape_10dp_corner"
+            android:text="My Workout Exp"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.500" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/icons8_male_user_480"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_10dp_corner"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/btn_ProfilePage_Home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_normal"
+            android:text="Home"
+            android:textColor="@color/white"
+
+            />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/btn_ProfilePageLibrary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_normal"
+            android:text="Library"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/btn_ProfilePage_Timer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_normal"
+            android:text="Timer"
+            android:textColor="@color/white"
+
+            />
+        <Button
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/btn_ProfilePage_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_normal"
+            android:text="Profile"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

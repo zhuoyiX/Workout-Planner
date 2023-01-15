@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LibraryPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:background="#737D88">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Library Page"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:fontFamily="@font/impact"
+        />
+    </LinearLayout>
+
+    //主屏幕
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1">
+
+
+       <Button
+           android:id="@+id/btn_pushUp"
+           android:layout_width="150dp"
+           android:layout_height="120dp"
+           android:layout_marginStart="40dp"
+           android:layout_marginTop="60dp"
+           android:background="@drawable/icons8_exercise_408"
+           app:layout_constraintStart_toStartOf="parent"
+
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <Button
+           android:id="@+id/btn_benchPress"
+           android:layout_width="150dp"
+           android:layout_height="120dp"
+           android:layout_marginTop="60dp"
+           android:layout_marginEnd="20dp"
+           android:background="@drawable/icons8_bench_press_500"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <Button
+           android:id="@+id/btn_DumbbellRow"
+           android:layout_width="150dp"
+           android:layout_height="120dp"
+           android:layout_marginStart="40dp"
+           android:layout_marginTop="228dp"
+           android:background="@drawable/icons8_workout_500"
+           app:layout_constraintStart_toStartOf="parent"
+
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <Button
+           android:id="@+id/btn_DumbbellFly"
+           android:layout_width="150dp"
+           android:layout_height="120dp"
+           android:layout_marginStart="220dp"
+           android:layout_marginTop="228dp"
+           android:background="@drawable/icons8_fitness_500"
+           app:layout_constraintStart_toStartOf="parent"
+
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <Button
+           android:id="@+id/btn_sitUps"
+           android:layout_width="150dp"
+           android:layout_height="120dp"
+           android:layout_marginStart="40dp"
+           android:layout_marginTop="412dp"
+           android:background="@drawable/icons8_sit_ups_500"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <Button
+           android:id="@+id/btn_deadLift"
+           android:layout_width="150dp"
+           android:layout_height="120dp"
+           android:layout_marginStart="220dp"
+           android:layout_marginTop="412dp"
+           android:background="@drawable/icons8_deadlift_500"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_10dp_corner"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/btn_LibraryPage_Home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_normal"
+            android:text="Home"
+            android:textColor="@color/white"
+
+            />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/btn_LibraryPage_Library"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_normal"
+            android:text="Library"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/btn_LibraryPage_Timer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_normal"
+            android:text="Timer"
+            android:textColor="@color/white"
+
+            />
+        <Button
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/btn_LibraryPage_Profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_normal"
+            android:text="Profile"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
