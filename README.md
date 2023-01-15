@@ -7,6 +7,9 @@ This is an application about fitness, gym and workout
 3. We implement a Timer for user to use, and we hope it will help them to better perform
 4. We also import a oepen source project called Runner Tracker. This is a program will track user's outdoor activity.
    It will store information such as distance, speed and when user finishes their run, it will create a draw of the path. 
+   
+The following link is a youtube demo video:\
+https://youtu.be/Kw2m4xQJNWk
   
   
   
